@@ -1,0 +1,480 @@
+{
+    "Code": 1,
+    "Meta": {
+        "Language": "en-us",
+        "Type": "flights-and-packages"
+    },
+    "Data": {
+        "Categories": [
+            "fnp Category A",
+            "fnp Category B"
+        ],
+		"Districts":[ 
+			"Hong Kong Island",
+			"New Territories & Outlying Islands"
+		],
+        "Offers": {
+            "FeaturedOffers": [
+                {
+                    "Title": "Buy-One-Get-One-Free on Big Bus Premium Ticket",
+                    "Image": "assets/images/offers/BigBus_EN_Attraction_Offer_1_Photo_1.jpg",
+                    "Category": "fnp category A",
+                    "MerchantName": "Big Bus Tours",
+                    "MerchantLogoImage": "assets/images/offers/BigBus_EN_Attraction_Offer_1_logo.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-a/"
+                },
+                {
+                    "Title": "Buy-One-Get-One-Free on Dukling Tour (Adult)",
+                    "Image": "assets/images/attractions/offer-1.jpg",
+                    "Category": "fnp category A",
+                    "MerchantName": "Dukling",
+                    "MerchantLogoImage": null,
+                    "Qts": false,
+                    "Hkaapa": true,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-a/"
+                },
+                {
+                    "Title": "Buy-One-Get-One-Free on Admission Ticket and a 6R photo combo (Adult)",
+                    "Image": "assets/images/offers/MTHK_EN_Attraction_Offer_1-01.jpg",
+                    "Category": "fnp category A",
+                    "MerchantName": "Madame Tussauds Hong Kong",
+                    "MerchantLogoImage": "assets/images/offers/MTHK_EN_Attraction_Offer_1_logo.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-a/"
+                },
+                {
+                    "Title": "Buy-One-Get-One-Free on Admission Ticket (Adult)",
+                    "Image": "assets/images/offers/NoahsArk_EN_Attraction_Offer_1_Photo_1.jpg",
+                    "Category": "fnp category A",
+                    "MerchantName": "Noah Ark's Hong Kong",
+                    "MerchantLogoImage": "assets/images/offers/NoahsArk_EN_Attraction_Offer_1_logo.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-a/"
+                },
+                {
+                    "Title": "Buy-One-Get-One-Free on 360 Lantau Culture and Heritage Tour (Crystal Cabin; Adult)",
+                    "Image": "assets/images/attractions/offer-1.jpg",
+                    "Category": "fnp category A",
+                    "MerchantName": "Ngong Ping 360",
+                    "MerchantLogoImage": "assets/images/common/logo-cx.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-a/"
+                },
+                {
+                    "Title": "Buy-One-Get-One-Free on Daytime Admission Ticket (Adult)",
+                    "Image": "assets/images/offers/OP_EN_Attraction_Offer_1-01.jpg",
+                    "Category": "fnp category A",
+                    "MerchantName": "Ocean Park Hong Kong",
+                    "MerchantLogoImage": "assets/images/offers/op_logo.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-a/"
+                },
+                {
+                    "Title": "Buy-One-Get-One-Free on Peak Tram Sky Pass (Return) Adult Ticket",
+                    "Image": "assets/images/offers/PeakTram_EN_Attraction_Offer_1-01.jpg",
+                    "Category": "fnp category A",
+                    "MerchantName": "Peak Tramways",
+                    "MerchantLogoImage": "assets/images/offers/PeakTram_EN_Attraction_Offer_1_logo.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-a/"
+                },
+                {
+                    "Title": "Buy-One-Get-One-Free on sky100 Wine Package (Adult)",
+                    "Image": "assets/images/offers/sky100_EN_Attraction_Offer_1_Photo_1.jpg",
+                    "Category": "fnp category A",
+                    "MerchantName": "sky100 Hong Kong Observation Deck",
+                    "MerchantLogoImage": "assets/images/offers/sky100_logo.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-a/"
+                }
+            ],
+            "OtherOffers": [
+                {
+                    "Title": "Buy-One-Get-One-Free on One Day Ticket",
+                    "Image": "assets/images/offers/SuperPark_EN_Attraction_Offer_1-01.jpg",
+                    "Category": "fnp Category B",
+					"District":"Hong Kong Island",
+                    "MerchantName": "SuperPark Hong Kong",
+                    "MerchantLogoImage": "assets/images/offers/sprprk_logo.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "50% Discount on TramOramic Tour",
+                    "Image": "assets/images/offers/HKTram_EN_Attraction_Offer_1-01.jpg",
+                    "Category": "fnp Category C",
+					"District":"New Territories & Outlying Islands",
+                    "MerchantName": "Hong Kong Tramways",
+                    "MerchantLogoImage": "assets/images/offers/HKTram_EN_Attraction_Offer_1_logo.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "3 Lorem ipsum dolor sit amet ksjqco nsectetur adipiscor ksoq esit amet",
+                    "Image": "assets/images/attractions/offer-1.jpg",
+                    "Category": "fnp Category A",
+					"District":"Hong Kong Island",
+                    "MerchantName": "Hong Kong Disneyland Resort",
+                    "MerchantLogoImage": "assets/images/common/logo-cx.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "Lorem ipsum dolor sit amet ksjqco nsectetur adipiscor ksoq esit amet",
+                    "Image": "assets/images/attractions/offer-1.jpg",
+                    "Category": "fnp Category D",
+					"District":"Hong Kong Island",
+                    "MerchantName": "The Hong Kong Jockey Club",
+                    "MerchantLogoImage": "assets/images/common/logo-cx.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "Lorem ipsum dolor sit amet ksjqco nsectetur adipiscor ksoq esit amet",
+                    "Image": "assets/images/attractions/offer-1.jpg",
+                    "Category": "fnp Category B",
+					"District":"New Territories & Outlying Islands",
+                    "MerchantName": "Monopoly Dreams Hong Kong",
+                    "MerchantLogoImage": "assets/images/common/logo-cx.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "PMQ Tourist Privilege Programme – Coupon Book Redemption",
+                    "Image": "assets/images/offers/PMQ_EN_Attraction_Offer_1_Photo_1.jpg",
+                    "Category": "fnp Category A",
+					"District":"New Territories & Outlying Islands",
+                    "MerchantName": "PMQ",
+                    "MerchantLogoImage": "assets/images/offers/PMQ_EN_Attraction_Offer_1_logo.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "Lorem ipsum dolor sit amet ksjqco nsectetur adipiscor ksoq esit amet",
+                    "Image": "assets/images/attractions/offer-1.jpg",
+                    "Category": "fnp Category B",
+					"District":"Hong Kong Island",
+                    "MerchantName": "Tai Kwun",
+                    "MerchantLogoImage": "assets/images/common/logo-cx.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "Lorem ipsum dolor sit amet ksjqco nsectetur adipiscor ksoq esit amet",
+                    "Image": "assets/images/attractions/offer-1.jpg",
+                    "Category": "fnp Category D",
+					"District":"New Territories & Outlying Islands",
+                    "MerchantName": "The Mills",
+                    "MerchantLogoImage": "assets/images/common/logo-cx.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                
+                {
+                    "Title": "9 Buy-One-Get-One-Free on One Day Ticket",
+                    "Image": "assets/images/offers/SuperPark_EN_Attraction_Offer_1-01.jpg",
+                    "Category": "fnp Category C",
+					"District":"New Territories & Outlying Islands",
+                    "MerchantName": "SuperPark Hong Kong",
+                    "MerchantLogoImage": "assets/images/offers/sprprk_logo.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "10 50% Discount on TramOramic Tour",
+                    "Image": "assets/images/offers/HKTram_EN_Attraction_Offer_1-01.jpg",
+                    "Category": "fnp Category B",
+					"District":"Hong Kong Island",
+                    "MerchantName": "Hong Kong Tramways",
+                    "MerchantLogoImage": "assets/images/offers/HKTram_EN_Attraction_Offer_1_logo.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "11 3 Lorem ipsum dolor sit amet ksjqco nsectetur adipiscor ksoq esit amet",
+                    "Image": "assets/images/attractions/offer-1.jpg",
+                    "Category": "fnp Category A",
+					"District":"New Territories & Outlying Islands",
+                    "MerchantName": "Hong Kong Disneyland Resort",
+                    "MerchantLogoImage": "assets/images/common/logo-cx.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "12 Lorem ipsum dolor sit amet ksjqco nsectetur adipiscor ksoq esit amet",
+                    "Image": "assets/images/attractions/offer-1.jpg",
+                    "Category": "fnp Category D",
+					"District":"Hong Kong Island",
+                    "MerchantName": "The Hong Kong Jockey Club",
+                    "MerchantLogoImage": "assets/images/common/logo-cx.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "13 Lorem ipsum dolor sit amet ksjqco nsectetur adipiscor ksoq esit amet",
+                    "Image": "assets/images/attractions/offer-1.jpg",
+                    "Category": "fnp Category B",
+					"District":"Hong Kong Island",
+                    "MerchantName": "Monopoly Dreams Hong Kong",
+                    "MerchantLogoImage": "assets/images/common/logo-cx.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "14 PMQ Tourist Privilege Programme – Coupon Book Redemption",
+                    "Image": "assets/images/offers/PMQ_EN_Attraction_Offer_1_Photo_1.jpg",
+                    "Category": "fnp Category C",
+					"District":"New Territories & Outlying Islands",
+                    "MerchantName": "PMQ",
+                    "MerchantLogoImage": "assets/images/offers/PMQ_EN_Attraction_Offer_1_logo.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "15 Lorem ipsum dolor sit amet ksjqco nsectetur adipiscor ksoq esit amet",
+                    "Image": "assets/images/attractions/offer-1.jpg",
+                    "Category": "fnp Category D",
+                    "MerchantName": "Tai Kwun",
+                    "MerchantLogoImage": "assets/images/common/logo-cx.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "16 Lorem ipsum dolor sit amet ksjqco nsectetur adipiscor ksoq esit amet",
+                    "Image": "assets/images/attractions/offer-1.jpg",
+                    "Category": "fnp Category C",
+					"District":"New Territories & Outlying Islands",
+                    "MerchantName": "The Mills",
+                    "MerchantLogoImage": "assets/images/common/logo-cx.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "Buy-One-Get-One-Free on One Day Ticket",
+                    "Image": "assets/images/offers/SuperPark_EN_Attraction_Offer_1-01.jpg",
+                    "Category": "fnp Category A",
+                    "MerchantName": "SuperPark Hong Kong",
+                    "MerchantLogoImage": "assets/images/offers/sprprk_logo.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "50% Discount on TramOramic Tour",
+                    "Image": "assets/images/offers/HKTram_EN_Attraction_Offer_1-01.jpg",
+                    "Category": "fnp Category B",
+                    "MerchantName": "Hong Kong Tramways",
+                    "MerchantLogoImage": "assets/images/offers/HKTram_EN_Attraction_Offer_1_logo.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "3 Lorem ipsum dolor sit amet ksjqco nsectetur adipiscor ksoq esit amet",
+                    "Image": "assets/images/attractions/offer-1.jpg",
+                    "Category": "fnp Category A",
+					"District":"New Territories & Outlying Islands",
+                    "MerchantName": "Hong Kong Disneyland Resort",
+                    "MerchantLogoImage": "assets/images/common/logo-cx.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "Lorem ipsum dolor sit amet ksjqco nsectetur adipiscor ksoq esit amet",
+                    "Image": "assets/images/attractions/offer-1.jpg",
+                    "Category": "fnp Category D",
+                    "MerchantName": "The Hong Kong Jockey Club",
+                    "MerchantLogoImage": "assets/images/common/logo-cx.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "Lorem ipsum dolor sit amet ksjqco nsectetur adipiscor ksoq esit amet",
+                    "Image": "assets/images/attractions/offer-1.jpg",
+                    "Category": "fnp Category B",
+                    "MerchantName": "Monopoly Dreams Hong Kong",
+                    "MerchantLogoImage": "assets/images/common/logo-cx.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "PMQ Tourist Privilege Programme – Coupon Book Redemption",
+                    "Image": "assets/images/offers/PMQ_EN_Attraction_Offer_1_Photo_1.jpg",
+                    "Category": "fnp Category C",
+                    "MerchantName": "PMQ",
+                    "MerchantLogoImage": "assets/images/offers/PMQ_EN_Attraction_Offer_1_logo.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "Lorem ipsum dolor sit amet ksjqco nsectetur adipiscor ksoq esit amet",
+                    "Image": "assets/images/attractions/offer-1.jpg",
+                    "Category": "fnp Category B",
+                    "MerchantName": "Tai Kwun",
+                    "MerchantLogoImage": "assets/images/common/logo-cx.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "Lorem ipsum dolor sit amet ksjqco nsectetur adipiscor ksoq esit amet",
+                    "Image": "assets/images/attractions/offer-1.jpg",
+                    "Category": "fnp Category D",
+                    "MerchantName": "The Mills",
+                    "MerchantLogoImage": "assets/images/common/logo-cx.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                
+                {
+                    "Title": "9 Buy-One-Get-One-Free on One Day Ticket",
+                    "Image": "assets/images/offers/SuperPark_EN_Attraction_Offer_1-01.jpg",
+                    "Category": "fnp Category A",
+                    "MerchantName": "SuperPark Hong Kong",
+                    "MerchantLogoImage": "assets/images/offers/sprprk_logo.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "10 50% Discount on TramOramic Tour",
+                    "Image": "assets/images/offers/HKTram_EN_Attraction_Offer_1-01.jpg",
+                    "Category": "fnp Category C",
+                    "MerchantName": "Hong Kong Tramways",
+                    "MerchantLogoImage": "assets/images/offers/HKTram_EN_Attraction_Offer_1_logo.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "11 3 Lorem ipsum dolor sit amet ksjqco nsectetur adipiscor ksoq esit amet",
+                    "Image": "assets/images/attractions/offer-1.jpg",
+                    "Category": "fnp Category B",
+                    "MerchantName": "Hong Kong Disneyland Resort",
+                    "MerchantLogoImage": "assets/images/common/logo-cx.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "12 Lorem ipsum dolor sit amet ksjqco nsectetur adipiscor ksoq esit amet",
+                    "Image": "assets/images/attractions/offer-1.jpg",
+                    "Category": "fnp Category A",
+                    "MerchantName": "The Hong Kong Jockey Club",
+                    "MerchantLogoImage": "assets/images/common/logo-cx.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "13 Lorem ipsum dolor sit amet ksjqco nsectetur adipiscor ksoq esit amet",
+                    "Image": "assets/images/attractions/offer-1.jpg",
+                    "Category": "fnp Category D",
+                    "MerchantName": "Monopoly Dreams Hong Kong",
+                    "MerchantLogoImage": "assets/images/common/logo-cx.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "14 PMQ Tourist Privilege Programme – Coupon Book Redemption",
+                    "Image": "assets/images/offers/PMQ_EN_Attraction_Offer_1_Photo_1.jpg",
+                    "Category": "fnp Category C",
+                    "MerchantName": "PMQ",
+                    "MerchantLogoImage": "assets/images/offers/PMQ_EN_Attraction_Offer_1_logo.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "15 Lorem ipsum dolor sit amet ksjqco nsectetur adipiscor ksoq esit amet",
+                    "Image": "assets/images/attractions/offer-1.jpg",
+                    "Category": "fnp Category C",
+                    "MerchantName": "Tai Kwun",
+                    "MerchantLogoImage": "assets/images/common/logo-cx.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                },
+                {
+                    "Title": "16 Lorem ipsum dolor sit amet ksjqco nsectetur adipiscor ksoq esit amet",
+                    "Image": "assets/images/attractions/offer-1.jpg",
+                    "Category": "fnp Category B",
+                    "MerchantName": "The Mills",
+                    "MerchantLogoImage": "assets/images/common/logo-cx.png",
+                    "Qts": false,
+                    "Hkaapa": false,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                }
+            ]
+        },
+        "CrossSellingBanners": {
+            "Top": [
+                {
+                    "Type": "Partial",
+                    "Title": "Offer a",
+                    "MerchantName": null,
+                    "MerchantLogoImage": null,
+                    "Image": "/media/test.jpg",
+                    "ResponsiveImage": "/media/test.jpg",
+                    "FontColorCode": null,
+                    "BackgroundColorCode": null,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-a/"
+                },
+                {
+                    "Type": "Full",
+                    "Title": "offer fnp B",
+                    "MerchantName": "merchant a",
+                    "MerchantLogoImage": "media/merchant-a.jpg",
+                    "Image": null,
+                    "ResponsiveImage": null,
+                    "FontColorCode": null,
+                    "BackgroundColorCode": null,
+                    "Link": "http://localhost:49794/en-us/flights-and-packages/offer-fnp-b/"
+                }
+            ],
+            "Bottom": [
+                {
+                    "Type": "Full",
+                    "Title": "Google",
+                    "MerchantName": null,
+                    "MerchantLogoImage": null,
+                    "Image": "/media/google.jpg",
+                    "ResponsiveImage": "/media/google.jpg",
+                    "FontColorCode": "#000000",
+                    "BackgroundColorCode": "#FFFFFF",
+                    "Link": "https://google.com.hk"
+                }
+            ]
+        }
+    }
+}

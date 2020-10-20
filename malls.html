@@ -858,69 +858,43 @@
             <section class="offer-container is-onscreen enabled" style="transition-delay: 450ms;">
                 <h2 class="is-onscreen">ข้อเสนอเพิ่มเติม</h2>
                 <div class="cateFilter">
-                    <select class="regionSelect select2-hidden-accessible" data-select2-id="4" tabindex="-1"
-                        aria-hidden="true" style="">
-                        <option value="" data-select2-id="6">All Areas</option>
-                        <option value="Hong Kong Island">Hong Kong Island</option>
-                        <option value="Kowloon">Kowloon</option>
-                        <option value="New Territories">New Territories</option>
-                    </select><span class="select2 select2-container select2-container--default cateSel normal" dir="ltr"
-                        data-select2-id="5" style="width: 130px;"><span class="selection"><span
-                                class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true"
-                                aria-expanded="false" tabindex="0" aria-disabled="false"
-                                aria-labelledby="select2-3pmj-container"><span class="select2-selection__rendered"
-                                    id="select2-3pmj-container" role="textbox" aria-readonly="true"
-                                    title="All Areas">All Areas</span><span class="select2-selection__arrow"
-                                    role="presentation"><b role="presentation"></b></span></span></span><span
-                            class="dropdown-wrapper" aria-hidden="true"></span></span>
-                    <select class="districtSelect select2-hidden-accessible" data-select2-id="1" tabindex="-1"
-                        aria-hidden="true" style="">
-                        <option value="" data-select2-id="3">All Locations</option>
-                        <option value="Central">Central</option>
-                        <option value="Diamond Hill">Diamond Hill</option>
-                        <option value="Ho Man Tin">Ho Man Tin</option>
-                        <option value="Hung Hum">Hung Hum</option>
-                        <option value="Kowloon Bay">Kowloon Bay</option>
-                        <option value="Kwai Fong">Kwai Fong</option>
-                        <option value="Kwun Tong">Kwun Tong</option>
-                        <option value="Lai Chi Kok">Lai Chi Kok</option>
-                        <option value="Lam Tin">Lam Tin</option>
-                        <option value="Lei Yue Mun">Lei Yue Mun</option>
-                        <option value="Lok Fu">Lok Fu</option>
-                        <option value="Ma On Shan">Ma On Shan</option>
-                        <option value="Mongkok">Mongkok</option>
-                        <option value="Ngau Chi Wan">Ngau Chi Wan</option>
-                        <option value="Quarry Bay">Quarry Bay</option>
-                        <option value="Sau Mau Ping">Sau Mau Ping</option>
-                        <option value="Sha Tin">Sha Tin</option>
-                        <option value="Sham Shui Po">Sham Shui Po</option>
-                        <option value="Shau Kei Wan">Shau Kei Wan</option>
-                        <option value="Sheung Shui">Sheung Shui</option>
-                        <option value="Siu Sai Wan">Siu Sai Wan</option>
-                        <option value="Stanley">Stanley</option>
-                        <option value="Tai Kok Tsui">Tai Kok Tsui</option>
-                        <option value="Tai Po">Tai Po</option>
-                        <option value="Tin Shui Wai">Tin Shui Wai</option>
-                        <option value="Tseung Kwan O">Tseung Kwan O</option>
-                        <option value="Tsim Sha Tsui">Tsim Sha Tsui</option>
-                        <option value="Tsing Yi">Tsing Yi</option>
-                        <option value="Tsuen Wan">Tsuen Wan</option>
-                        <option value="Tsz Wan Shan">Tsz Wan Shan</option>
-                        <option value="Tuen Mun">Tuen Mun</option>
-                        <option value="Tung Chung">Tung Chung</option>
-                        <option value="Wan Chai">Wan Chai</option>
-                        <option value="Wong Tai Sin">Wong Tai Sin</option>
-                        <option value="Yuen Long">Yuen Long</option>
-                    </select><span class="select2 select2-container select2-container--default cateSel normal" dir="ltr"
-                        data-select2-id="2" style="width: 119px;"><span class="selection"><span
-                                class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true"
-                                aria-expanded="false" tabindex="0" aria-disabled="false"
-                                aria-labelledby="select2-le45-container"><span class="select2-selection__rendered"
-                                    id="select2-le45-container" role="textbox" aria-readonly="true"
-                                    title="All Locations">All Locations</span><span class="select2-selection__arrow"
-                                    role="presentation"><b role="presentation"></b></span></span></span><span
-                            class="dropdown-wrapper" aria-hidden="true"></span></span>
-
+                    <div class="tourFilter" data-selected=" Day(s) Selected"><a class="filterToggle" href="javascript:;"><span class="subtitle">Departure</span>
+                            <div class="selectedDays">Everyday</div></a>
+                        <ul class="daysContainer">
+                            <li>
+                                <input class="all" type="checkbox" name="dayFilter" id="filterEveryday" value="Everyday" checked="checked">
+                                <label for="filterEveryday">Everyday</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="dayFilter" id="filterMonday" value="Monday">
+                                <label for="filterMonday">Monday</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="dayFilter" id="filterTuesday" value="Tuesday">
+                                <label for="filterTuesday">Tuesday</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="dayFilter" id="filterWednesday" value="Wednesday">
+                                <label for="filterWednesday">Wednesday</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="dayFilter" id="filterThursday" value="Thursday">
+                                <label for="filterThursday">Thursday</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="dayFriday" id="filterFriday" value="Friday">
+                                <label for="filterFriday">Friday</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="dayFilter" id="filterSaturday" value="Saturday">
+                                <label for="filterSaturday">Saturday</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="dayFilter" id="filterSunday" value="Sunday">
+                                <label for="filterSunday">Sunday</label>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="offer-list-container">
                     <div class="offer-list" data-load-more="true" data-load-more-num="8" data-default-num="8"
